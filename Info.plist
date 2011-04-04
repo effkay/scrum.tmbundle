@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Scrum</string>
+	<key>ordering</key>
+	<array>
+		<string>1375F307-7FE2-41B4-81D1-67A22C5BB9D2</string>
+		<string>92574231-ABD7-42F0-BD15-82A0B8CF7BC7</string>
+		<string>3DAB958E-39CA-4B1E-94A5-8FE0135064DE</string>
+		<string>AA3C30AE-11A7-40B5-9160-3302709A7698</string>
+	</array>
+	<key>uuid</key>
+	<string>86C79213-EE3E-4E3B-86FA-FD355DBE480C</string>
+</dict>
+</plist>

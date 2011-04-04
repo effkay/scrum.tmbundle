@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>SPRINT</string>
+	</array>
+	<key>name</key>
+	<string>Sprint Backlog</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>begin</key>
+			<string>"</string>
+			<key>end</key>
+			<string>"</string>
+			<key>name</key>
+			<string>string.quoted.double.untitled</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\\.</string>
+					<key>name</key>
+					<string>constant.character.escape.untitled</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^[0-9][0-9]* [0-9][0-9]</string>
+			<key>name</key>
+			<string>keyword.other.item_title</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(Product Owner:|Team:|Sprint:|Start:|Sprint-duration:|End:|Availability:|Total:|Total Work:|Holidays:|Priorities:|Legend:|Sprint Backlog Items:)</string>
+			<key>name</key>
+			<string>keyword.other.untitled</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.untitled</string>
+	<key>uuid</key>
+	<string>AA3C30AE-11A7-40B5-9160-3302709A7698</string>
+</dict>
+</plist>

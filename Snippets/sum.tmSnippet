@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>`awk /^[0-9][0-9].*/'{x=x+$2} END {print x}' $TM_FILEPATH`</string>
+	<key>name</key>
+	<string>total work</string>
+	<key>tabTrigger</key>
+	<string>totalwork</string>
+	<key>uuid</key>
+	<string>92574231-ABD7-42F0-BD15-82A0B8CF7BC7</string>
+</dict>
+</plist>

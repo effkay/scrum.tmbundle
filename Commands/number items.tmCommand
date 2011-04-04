@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>awk 'BEGIN {x=1} { if (/^[0-9][0-9]* [0-9][0-9]*.*$/) { gsub(/^[0-9][0-9]+/, x); printf("%02s", $1); sub($1,""); print $0 ; x++ } else { print } }'</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>@~</string>
+	<key>name</key>
+	<string>number items</string>
+	<key>output</key>
+	<string>replaceDocument</string>
+	<key>uuid</key>
+	<string>1375F307-7FE2-41B4-81D1-67A22C5BB9D2</string>
+</dict>
+</plist>
