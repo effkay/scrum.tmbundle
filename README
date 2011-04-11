@@ -1,1 +1,14 @@
-still in prototypig phase. if the idea sounds interesting to you, fork'n'code on!
+scrum.tmbundle
+==============
+
+TextMate Bundle that allows for a text file based scrum process. Right now, it's all about the user stories. They look like that:
+
+00 02 Some User Story description
+
+First column being the ID, second one being the effort. The bundle has
+
+- a snipplet for creating stories (item + TAB)
+- a shortcut to count the total effort within a file
+- a shortcut to automatically renumber the stories
+
+Might be expanded in the future, together with the basecrum project (check out http://github.com/effkay)
